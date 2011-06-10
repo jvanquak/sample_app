@@ -28,9 +28,9 @@ gem 'rake', '0.8.7'
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
 group :development do
-	gem 'rspce-rails'
+	gem 'rspec-rails'
 end
 group :test do
-	gem 'rspce'
+	gem 'rspec'
    gem 'webrat'
 end
