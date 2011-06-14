@@ -29,6 +29,7 @@ gem 'rake', '0.8.7'
 # and rake tasks are available in development mode:
 group :development do
 	gem 'rspec-rails'
+	gem 'rspec'
 end
 group :test do
 	gem 'rspec'
